@@ -8,7 +8,7 @@ const SearchBox = ({searchChange}) =>{
             className='pa3 ba b--green bg-lightest-blue'
             type='search' 
             placeholder='Search Robots'
-            onChange={searchChange}
+            onChange = {searchChange}
             />
 
         </div>
@@ -18,4 +18,4 @@ const SearchBox = ({searchChange}) =>{
     );
 
 }
-export default SearchBox
+export default SearchBox;
