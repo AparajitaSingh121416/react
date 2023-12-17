@@ -3,12 +3,14 @@ import './App.css';
 import Navigation from './Navigation';
 import ImageLinkForm from './ImageLinkForm';
 import Logo from './Logo';
+import ParticlesBg from 'particles-bg';
 
 
 class App extends Component {
   render() {
     return(
       <div className="App">
+        <ParticlesBg type="cobweb" bg={true} />
         <Navigation/>
         <Logo/>
         <ImageLinkForm/>
